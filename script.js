@@ -22,7 +22,7 @@ function playRound() {
     } 
     else if (playerSelection === "rock" && computerSelection === "paper") {
         console.log("You lose! Paper beats rock.");
-        computerScore = computerScore + 1;
+        return computerScore = computerScore + 1;
         
     }
     else if (playerSelection === "paper" && computerSelection === "rock") {
